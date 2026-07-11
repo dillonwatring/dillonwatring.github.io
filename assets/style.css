@@ -157,6 +157,43 @@ a.button {
   font-size: 0.9rem;
 }
 
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0 0;
+}
+
+.tags span {
+  border: 1px solid var(--border);
+  background: var(--card-bg);
+  border-radius: 999px;
+  padding: 0.3rem 0.85rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.pub-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pub-list li {
+  padding: 0.9rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.pub-list li:last-child {
+  border-bottom: none;
+}
+
+.pub-list .venue {
+  color: var(--muted);
+  font-size: 0.85rem;
+  margin-top: 0.25rem;
+}
+
 footer {
   margin-top: 3rem;
   color: var(--muted);
