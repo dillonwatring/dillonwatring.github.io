@@ -79,6 +79,60 @@ nav.site-nav a.active {
   margin: 0 0 1.5rem;
 }
 
+.hero.centered {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatar {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1.25rem;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.12);
+}
+
+.hero.centered .tagline {
+  margin-bottom: 1rem;
+}
+
+.bio-short {
+  max-width: 34rem;
+  color: var(--text);
+  margin: 0 0 1.5rem;
+}
+
+.icon-links {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  margin: 0 0 1.5rem;
+}
+
+.icon-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: var(--card-bg);
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: lowercase;
+}
+
+.icon-links a:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
 .links {
   display: flex;
   flex-wrap: wrap;
