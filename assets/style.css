@@ -116,21 +116,24 @@ nav.site-nav a.active {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 42px;
-  height: 42px;
+  width: 48px;
+  height: 48px;
   border-radius: 50%;
   border: 1px solid var(--border);
   background: var(--card-bg);
-  color: var(--text);
   text-decoration: none;
-  font-size: 0.8rem;
-  font-weight: 600;
-  text-transform: lowercase;
+  transition: border-color 0.15s, transform 0.15s;
+}
+
+.icon-links a img {
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
 }
 
 .icon-links a:hover {
   border-color: var(--accent);
-  color: var(--accent);
+  transform: translateY(-2px);
 }
 
 .links {
